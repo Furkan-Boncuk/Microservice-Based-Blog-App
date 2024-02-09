@@ -1,0 +1,13 @@
+.postListContainer {
+    color: whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.postCard {
+    padding: 10px;
+    border-radius: 3px;
+    background-color: rgb(68, 70, 75);
+    width: max-content;
+}

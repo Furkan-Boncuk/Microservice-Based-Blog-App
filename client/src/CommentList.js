@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./commentList.css"
 const CommentList = ({ comments }) => {
   const renderedComments = comments.map((comment) => {
     let content;
@@ -16,10 +16,10 @@ const CommentList = ({ comments }) => {
       content = "This comment has been rejected";
     }
 
-    return <li key={comment.id}>{content}</li>;
+    return <li className="commentListItem" key={comment.id}>{content}</li>;
   });
 
-  return <ul>{renderedComments}</ul>;
+  return <ul className="commentListContainer">{renderedComments}</ul>;
 };
 
 export default CommentList;

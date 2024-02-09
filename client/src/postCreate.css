@@ -1,0 +1,63 @@
+.postCreateContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: whitesmoke;
+    border-radius: 3px;
+    background-color: rgb(39, 38, 38);
+    gap: 10px;
+    width: max-content;
+}
+
+.postFormContainer {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+}
+
+.postCreateTitle {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+.postForm {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.postTitleLabel {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.postTitleInput
+{
+    width: 250px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(73, 71, 71);
+    color: whitesmoke;
+}
+
+.postTitleInput::placeholder
+{
+    color: rgb(174, 172, 172);
+}
+
+.postSubmitButton {
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    background-color: teal;
+    color: whitesmoke;
+    align-self: flex-end;
+    cursor: pointer;
+}
